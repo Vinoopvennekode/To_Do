@@ -1,0 +1,188 @@
+.title {
+    color: red;
+}
+
+.add_todo {
+    padding: 20px;
+}
+
+.add_todo_form {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.add_todo_form.show {
+    display: flex;
+}
+
+
+.todo_form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.description_input {
+    height: 100px;
+
+}
+
+.close-button {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.select_date {
+    font-size: larger;
+}
+
+.update_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+
+.todo_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.form_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.done_message {
+    font-size: larger;
+    color: #28b415;
+    margin: 0px;
+}
+
+.special-date-cell {
+    background-color: rgb(75, 224, 58);
+    color: black;
+}
+
+.todo_list_map {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.todo_list_map_total {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_form {
+    width: 300px;
+}
+
+.todo_list_card {
+    width: 300px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+
+}
+
+.todo_list_card.true {
+    width: 300px;
+    border: 1px solid #28b415;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+
+}
+
+.card_title {
+    width: 155px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_description {
+    margin: 20px 0px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.card_time {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.status_checkbox {
+    margin-top: 16px;
+}
+
+.buttons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit_button,
+.update_button {
+    background-color: #373d44;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add_button {
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.date_shown {
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    margin: 0px 20px;
+    padding-top: 15px;
+}
+
+.label_time_limit{
+    padding-right: 10px;
+}
